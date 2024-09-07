@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sedan+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poetsen+One&family=Sedan+SC&display=swap');
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.lora-uniquifier {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    font-family: "Sedan SC", serif;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+header .logo {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+header .logo img {
+    width: 100%;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, h4 {
+    margin: 10px 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#game-settings, #quiz-container, #results-container {
+    margin-top: 20px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#quiz-container, #results-container {
+    display: none;
+}
+
+#timer {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#description-container {
+    margin-top: 20px;
+}
+
+#next-question {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#next-question:hover {
+    background-color: #45a049;
+}

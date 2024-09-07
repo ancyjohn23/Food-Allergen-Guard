@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allergen Detection Quiz Game</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <h1>SnapCheck - Allergen Checker</h1>
+        <h4>Your Safety is our Priority</h4>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Allergen Detection Quiz Game</h1>
+        <div id="game-settings">
+            <label for="num-questions">Number of Questions:</label>
+            <input type="number" id="num-questions" min="1" max="10" value="5">
+            <label for="difficulty">Difficulty:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button id="start-game">Start Game</button>
+        </div>
+        <div id="quiz-container" style="display: none;">
+            <div id="score">Score: 0</div>
+            <div id="timer">Time Left: 10</div>
+            <div id="question-container"></div>
+            <div id="description-container"></div>
+            <button id="next-question" style="display: none;">Next Question</button>
+        </div>
+        <div id="results-container" style="display: none;">
+            <h2>Congratulations!</h2>
+            <p id="final-score"></p>
+            <div id="all-questions"></div>
+            <button id="restart-game">Play Again</button>
+        </div>
+    </div>
+    
+    <script src="script1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0"></script>
+</body>
+</html>
